@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlQueryBuilder", "SqlQuery
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonResponseBuilder", "JsonResponseBuilder\JsonResponseBuilder.csproj", "{C64DF341-A14E-41BC-BAA0-85E3000417DF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.FactoryMethod", "3.FactoryMethod", "{4365D634-5E2A-4DF4-91E8-529A91382F77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentProcessor", "PaymentProcessor\PaymentProcessor.csproj", "{D9284771-0088-490F-A93A-B94CCDE6ECB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +41,10 @@ Global
 		{C64DF341-A14E-41BC-BAA0-85E3000417DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C64DF341-A14E-41BC-BAA0-85E3000417DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C64DF341-A14E-41BC-BAA0-85E3000417DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9284771-0088-490F-A93A-B94CCDE6ECB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9284771-0088-490F-A93A-B94CCDE6ECB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9284771-0088-490F-A93A-B94CCDE6ECB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9284771-0088-490F-A93A-B94CCDE6ECB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +54,6 @@ Global
 		{E58F8E9C-64F2-451F-B416-63ABF1A180EF} = {B8A03C69-32D3-41E8-A18D-645EB49D0E83}
 		{E01A4AF1-12DD-4328-B18D-7A6318050347} = {B86C6BCE-BAF5-4D8C-A1EC-3AACA226FF75}
 		{C64DF341-A14E-41BC-BAA0-85E3000417DF} = {B86C6BCE-BAF5-4D8C-A1EC-3AACA226FF75}
+		{D9284771-0088-490F-A93A-B94CCDE6ECB0} = {4365D634-5E2A-4DF4-91E8-529A91382F77}
 	EndGlobalSection
 EndGlobal
