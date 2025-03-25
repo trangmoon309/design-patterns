@@ -19,6 +19,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.FactoryMethod", "3.Factor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentProcessor", "PaymentProcessor\PaymentProcessor.csproj", "{D9284771-0088-490F-A93A-B94CCDE6ECB0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Adapter", "4.Adapter", "{4B5A7031-6B3E-4A73-9B65-1B84CA4932C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerceApplication", "ECommerceApplication\ECommerceApplication.csproj", "{1CCD9700-0D4A-49A7-B169-976DCC454EF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,10 @@ Global
 		{D9284771-0088-490F-A93A-B94CCDE6ECB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9284771-0088-490F-A93A-B94CCDE6ECB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9284771-0088-490F-A93A-B94CCDE6ECB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CCD9700-0D4A-49A7-B169-976DCC454EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCD9700-0D4A-49A7-B169-976DCC454EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCD9700-0D4A-49A7-B169-976DCC454EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCD9700-0D4A-49A7-B169-976DCC454EF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,5 +63,6 @@ Global
 		{E01A4AF1-12DD-4328-B18D-7A6318050347} = {B86C6BCE-BAF5-4D8C-A1EC-3AACA226FF75}
 		{C64DF341-A14E-41BC-BAA0-85E3000417DF} = {B86C6BCE-BAF5-4D8C-A1EC-3AACA226FF75}
 		{D9284771-0088-490F-A93A-B94CCDE6ECB0} = {4365D634-5E2A-4DF4-91E8-529A91382F77}
+		{1CCD9700-0D4A-49A7-B169-976DCC454EF0} = {4B5A7031-6B3E-4A73-9B65-1B84CA4932C5}
 	EndGlobalSection
 EndGlobal
